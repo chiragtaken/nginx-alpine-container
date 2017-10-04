@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-MAINTAINER Chirag Tayal <ctayal@cisco.com>
+MAINTAINER Chirag Tayal <chiragtayal@gmail.com>
 
 RUN apk update && apk add openssl openrc bash
 

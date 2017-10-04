@@ -9,9 +9,9 @@ country="US"
 state="CA"
 locality="San Jose"
 commonname=$Eth0IP
-org="Cisco Systems Ltd."
-unit="DCNM"
-email="dcnm-afw@cisco.com"
+org="Chirag Ltd."
+unit="homebox"
+email="chiragtayal@gmail.com"
 
 fail_if_error() {
   [ $1 != 0 ] && {
@@ -21,7 +21,7 @@ fail_if_error() {
 }
 
 # Generate a passphrase
-export PASSPHRASE="justintime"
+export PASSPHRASE="justintimefortea"
 
 openssl genrsa -des3 -out $DOMAIN.key -passout env:PASSPHRASE 2048
 fail_if_error $?
